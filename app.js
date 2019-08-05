@@ -11,6 +11,8 @@ const Player = () => {
   return (
     <div className="player">
       <span className="player-name">Jess</span>
+
+      <Counter />
     </div>
   );
 };
@@ -25,4 +27,13 @@ const Counter = () => {
   );
 };
 
-ReactDOM.render(<Header />, document.getElementById("root"));
+const App = () => {
+  return (
+    <div className="scoreboard">
+      <Header />
+      <Player />
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById("root"));
