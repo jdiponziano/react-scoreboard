@@ -7,4 +7,12 @@ const Header = () => {
   );
 };
 
-ReactDOM.render(<Header />, document.getElementById("root"));
+const Player = () => {
+  return (
+    <div className="player">
+      <span className="player-name">Jess</span>
+    </div>
+  );
+};
+
+ReactDOM.render(<Player />, document.getElementById("root"));
