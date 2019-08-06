@@ -33,7 +33,6 @@ class App extends Component {
     this.setState(prevState => ({
       score: prevState.players[index].score += delta
     }));
-    console.log(index, delta);
   }
 
   handleRemovePlayer = (id) => {
@@ -49,7 +48,7 @@ class App extends Component {
       <div className="scoreboard">
         <Header
           title="Scoreboard"
-          totalPlayers={this.state.players.length}
+          players={this.state.players}
         />
 
         {/* Players list */}
