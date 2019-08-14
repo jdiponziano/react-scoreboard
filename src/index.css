@@ -11,8 +11,8 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  background-color: #8063FA;
-  border-bottom: solid 2px #D4CAFF;
+  background-color: #98b5c2;
+  border-bottom: solid 2px #CED9E2;
 }
 
 header h1 {
@@ -25,7 +25,7 @@ header h1 {
 /* FORMS */
 form {
   display: flex;
-  background-color: #8063FA;
+  background-color: #98b5c2;
 }
 
 input[type=text] {
@@ -34,22 +34,18 @@ input[type=text] {
   margin: 15px 10px 15px 15px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #5B45B9;
+  background-color: #415771;
   border-style: none;
   text-shadow: none;
   text-transform: uppercase;
-  color: #C7BCF8;
+  color: #fff;
   letter-spacing: 2px;
   outline: none;
 }
 
 input[type=text]::-webkit-input-placeholder{
-  color: #C7BCF8;
+  color: #CED9E2;
   letter-spacing: 2px;
-}
-
-input[type=text]:focus{
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 input[type=submit] {
@@ -57,10 +53,10 @@ input[type=submit] {
   font-size: .6em;
   margin: 15px 15px 15px 0; 
   padding: 10px;
-  background-color: #44338D;
+  background-color: #FFC657;
   border-radius: 5px;
   border: none;
-  color: #fff;
+  color: #694936;
   letter-spacing: 2px;
   font-weight: bold;
   text-shadow: none;
@@ -111,7 +107,7 @@ svg {
 }
 
   .player:last-of-type {
-    border-bottom-color: #D4CAFF;
+    border-bottom-color: #CED9E2;
   }
 
   .player-name:hover .remove-player {
@@ -166,7 +162,7 @@ svg {
 .stopwatch {
   padding: 15px 10px 5px 10px;
   margin: -5px -10px -5px 10px;
-  background: #5B45B9;
+  background: #415771;
 }
 
   .stopwatch-time {
@@ -177,11 +173,11 @@ svg {
 
   .stopwatch button {
     margin: 8px 5px;
-    background-color: #44338D;
+    background-color: #FFC657;
     border-radius: 5px;
     padding: 7px 8px;
     border: none;
-    color: #fff;
+    color: #694936;
     letter-spacing: 2px;
     font-weight: bold;
     text-shadow: none;
@@ -191,7 +187,7 @@ svg {
   .stopwatch button:hover,
   input[type=submit]:hover {
     background: #fff;
-    color: #44338D;
+    color: #FFC657;
     cursor: pointer;
   }
 
