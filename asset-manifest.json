@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-scoreboard/static/css/main.9cb3e8a7.chunk.css",
+    "main.css": "/react-scoreboard/static/css/main.3fe774a0.chunk.css",
     "main.js": "/react-scoreboard/static/js/main.4610a1ac.chunk.js",
     "main.js.map": "/react-scoreboard/static/js/main.4610a1ac.chunk.js.map",
     "runtime~main.js": "/react-scoreboard/static/js/runtime~main.d9728706.js",
@@ -8,8 +8,8 @@
     "static/js/2.c0c080c6.chunk.js": "/react-scoreboard/static/js/2.c0c080c6.chunk.js",
     "static/js/2.c0c080c6.chunk.js.map": "/react-scoreboard/static/js/2.c0c080c6.chunk.js.map",
     "index.html": "/react-scoreboard/index.html",
-    "precache-manifest.8ea2c9e441efac6e48f244f73629b8ac.js": "/react-scoreboard/precache-manifest.8ea2c9e441efac6e48f244f73629b8ac.js",
+    "precache-manifest.9b651509e2877e6e4ca6c39df79ec3b3.js": "/react-scoreboard/precache-manifest.9b651509e2877e6e4ca6c39df79ec3b3.js",
     "service-worker.js": "/react-scoreboard/service-worker.js",
-    "static/css/main.9cb3e8a7.chunk.css.map": "/react-scoreboard/static/css/main.9cb3e8a7.chunk.css.map"
+    "static/css/main.3fe774a0.chunk.css.map": "/react-scoreboard/static/css/main.3fe774a0.chunk.css.map"
   }
 }
