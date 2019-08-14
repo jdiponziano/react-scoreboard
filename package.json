@@ -2,8 +2,9 @@
   "name": "scoreboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": ,
+  "homepage": "https://jdiponziano.github.io/react-scoreboard",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
