@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Stats = (props) => {
-
+const Stats = props => {
   const totalPlayers = props.players.length;
   const totalPoints = props.players.reduce((total, player) => {
     return total + player.score;
@@ -20,7 +19,7 @@ const Stats = (props) => {
         </tr>
       </tbody>
     </table>
-  )
-}
+  );
+};
 
 export default Stats;
