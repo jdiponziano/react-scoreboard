@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
 /* ELEMENT STYLES -------------------- */
 body {
   background: #e8e7e7; 
-  font-family: arial;
+  font-family: 'Saira Stencil One', cursive;
   text-transform: uppercase;
 }
 
@@ -94,7 +95,7 @@ svg {
   background: #fff;
   width: 700px;
   margin: 70px auto;
-  box-shadow: 0 2px 0 rgb(133, 104, 250);
+  box-shadow: 0 2px 0 rgb(56, 93, 114);
   border-radius: 6px;
   overflow: hidden;
 }
