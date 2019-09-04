@@ -78,7 +78,7 @@ class App extends Component {
   render() {
     const highScore = this.getHighScore();
     return (
-      <Provider>
+      <Provider value={this.state.players}>
         <div className="scoreboard">
           <Header title="Scoreboard" players={this.state.players} />
 
