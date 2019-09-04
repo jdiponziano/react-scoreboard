@@ -2,7 +2,7 @@ import React from 'react';
 import Player from "./Player";
 import { Consumer } from './Context';
 
-const PlayerList = (props) => {
+const PlayerList = () => {
   return (
     <Consumer>
       {context => (
@@ -12,7 +12,7 @@ const PlayerList = (props) => {
               {...player}
               key={player.id.toString()}
               index={index}
-              isHighScore={props.highScore === player.score}
+              isHighScore={context.actions.highScore === player.score}
             />
           )}
         </React.Fragment>
