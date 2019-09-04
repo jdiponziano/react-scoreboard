@@ -81,14 +81,14 @@ class App extends Component {
       <Provider value={{
         players: this.state.players,
         actions: {
-          changeScore: this.handleScoreChange
+          changeScore: this.handleScoreChange,
+          removePlayer: this.handleRemovePlayer
         }
       }}>
         <div className="scoreboard">
           <Header />
 
           <PlayerList
-            removePlayer={this.handleRemovePlayer}
             highScore={highScore}
           />
 
