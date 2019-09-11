@@ -6,10 +6,10 @@ const AddPlayerForm = () => {
 
   return (
     <Consumer>
-      {context => {
+      {({ actions }) => {
         let handleSubmit = e => {
           e.preventDefault();
-          context.actions.addPlayer(playerInput.current.value);
+          actions.addPlayer(playerInput.current.value);
           e.currentTarget.reset();
         };
 
